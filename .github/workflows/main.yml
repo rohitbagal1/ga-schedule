@@ -1,0 +1,23 @@
+on: 
+
+  schedule: 
+
+    - cron: '30 7 * * *' 
+
+ 
+
+jobs: 
+
+  build: 
+
+    runs-on: ubuntu-latest 
+
+     
+
+    steps: 
+
+ 
+
+      - name: Run a script 
+
+        run: echo "This is a scheduled action!" 
